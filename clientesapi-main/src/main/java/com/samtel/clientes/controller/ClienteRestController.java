@@ -67,6 +67,7 @@ public class ClienteRestController {
 		}
 	}
 
+	// DELETE
 	@DeleteMapping(value = "/delete/{id}")
 	public ResponseEntity<List<ClienteDTO>> deleteCliente(@PathVariable Long id)
 	{
